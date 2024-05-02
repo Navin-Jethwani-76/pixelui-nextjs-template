@@ -1,22 +1,21 @@
-# Next.js & NextUI Template
+# Pixel UI - Next.Js Template
 
-This is a template for creating applications using Next.js 14 (app directory) and NextUI (v2).
+This is a template for creating Next.Js applications pre configured for using [Pixel UI](https://pixel-ui-app.vercel.app/) Components.
 
 ## Preview
 
-- The preview of this template is available at https://next-app-nextui-template.vercel.app/
+- The preview of this template is available at https://pixelui-nextjs-app-template.vercel.app/
 
-![Dark Mode Preview](public/dark_mode_preview.png)
-
-![Light Mode Preview](public/light_mode_preview.png)
+![Home Page Preview](public/screenshot-home.png)
+![Login Page Preview](public/screenshot-login.png)
 
 ## Technologies Used
 
-- [Next.js 13](https://nextjs.org/docs/getting-started)
+- [Next.js 14](https://nextjs.org/docs/getting-started)
 - [NextUI v2](https://nextui.org/)
 - [React Icons](https://react-icons.github.io/react-icons/)
+- [Tailwindcss Animated](https://www.tailwindcss-animated.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Framer Motion](https://www.framer.com/motion/)
 - [next-themes](https://github.com/pacocoursey/next-themes)
@@ -28,7 +27,7 @@ This is a template for creating applications using Next.js 14 (app directory) an
 To create a new project based on this template using `create-next-app`, run the following command:
 
 ```bash
-npx create-next-app -e https://github.com/Navin-Jethwani-76/next-app-template
+npx create-next-app -e https://github.com/Navin-Jethwani-76/pixelui-nextjs-template
 ```
 
 ### Run the development server
@@ -39,4 +38,4 @@ npm run dev
 
 ## License
 
-Licensed under the [MIT license](https://github.com/Navin-Jethwani-76/next-app-template/blob/main/LICENSE).
+Licensed under the [MIT license](https://github.com/Navin-Jethwani-76/pixelui-nextjs-template/blob/main/LICENSE).
