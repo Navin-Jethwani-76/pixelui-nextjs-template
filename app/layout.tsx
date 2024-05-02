@@ -4,6 +4,7 @@ import "./globals.css";
 import { Providers } from "@/app/providers";
 import NavBar from "@/components/Layout/NavBar";
 import Footer from "@/components/Layout/Footer";
+import Banner from "@/components/Layout/Banner";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,6 +31,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Providers>
           <NavBar />
+          <Banner />
           <main className="flex min-h-screen flex-col items-center justify-center p-4">
             {children}
           </main>

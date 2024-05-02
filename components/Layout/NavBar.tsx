@@ -5,6 +5,7 @@ import {
   NavbarContent,
   NavbarItem,
   Link,
+  Button,
 } from "@nextui-org/react";
 import { ThemeSwitcher } from "@/components/Layout/theme-switcher";
 import Image from "next/image";
@@ -37,6 +38,9 @@ const NavBar = () => {
 
         <NavbarContent justify="end">
           <NavbarItem className="flex gap-2">
+            <Button as={Link} color="primary" href="/login" variant="light">
+              Login
+            </Button>
             <ThemeSwitcher />
           </NavbarItem>
         </NavbarContent>
